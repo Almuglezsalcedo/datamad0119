@@ -1,0 +1,47 @@
+Country,Area,Fatal,Number_attacks
+USA,Florida,N,331
+AUSTRALIA,New South Wales,N,105
+USA,Hawaii,N,87
+USA,California,N,79
+USA,South Carolina,N,53
+AUSTRALIA,Western Australia,N,45
+USA,North Carolina,N,44
+AUSTRALIA,Queensland,N,36
+AUSTRALIA,Victoria,N,20
+USA,Texas,N,20
+AUSTRALIA,South Australia,N,16
+AUSTRALIA,Western Australia,Y,15
+USA,Oregon,N,11
+AUSTRALIA,New South Wales,Y,7
+USA,Hawaii,Y,6
+AUSTRALIA,Tasmania,N,5
+USA,Alabama,N,5
+AUSTRALIA,Queensland,Y,5
+USA,Florida,Y,4
+USA,New Jersey,N,4
+USA,California,Y,4
+USA,Massachusetts,N,3
+AUSTRALIA,South Australia,Y,3
+AUSTRALIA,Northern Territory,N,3
+USA,Puerto Rico,N,2
+USA,New York,N,2
+USA,Palmyra Atoll,N,2
+USA,Virginia,N,2
+AUSTRALIA,Torres Strait,N,2
+USA,Louisiana,N,2
+USA,Delaware,N,2
+USA,Maine,N,1
+USA,US Virgin Islands,N,1
+AUSTRALIA,Tasmania,Y,1
+USA,South Carolina,Y,1
+USA,South Carolina,?,1
+AUSTRALIA,Territory of Cocos (Keeling) Islands,N,1
+USA,Puerto Rico,Y,1
+AUSTRALIA,Victoria,Y,1
+USA,Maryland,N,1
+USA,North Carolina,Y,1
+USA,Georgia,N,1
+AUSTRALIA,New South Wales,?,1
+USA,New Mexico,N,1
+USA,Kentucky,N,1
+USA,Guam,N,1
