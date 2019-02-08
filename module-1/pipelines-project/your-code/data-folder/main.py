@@ -15,7 +15,7 @@ import seaborn as sns
 # In[3]:
 
 
-data=pd.read_csv('/Users/almu/ironhack/datamad0119/module-1/pipelines-project/your-code/data-folder/googleplaystore.csv')
+data=pd.read_csv('./googleplaystore.csv')
 
 
 # ## 2. WRANGLING

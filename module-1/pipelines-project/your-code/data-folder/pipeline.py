@@ -1,26 +1,22 @@
 
 # coding: utf-8
 
-# In[5]:
+# In[4]:
 
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from seaborn import kdeplot
-import subprocess
 
 
-# In[6]:
+# In[5]:
 
 
 def acquire():
-    acq=pd.read_csv('./googleplaystore.csv')
+    acq=pd.read_csv('/Users/almu/ironhack/datamad0119/module-1/pipelines-project/your-code/data-folder/googleplaystore.csv')
     return acq
 
 
-# In[7]:
+# In[6]:
 
 
 def wrangle(acq):
@@ -60,30 +56,13 @@ def analyze1 (data):
     correlation
     data['Price_dollars'].describe()
     return (H1,H2,correlation,H4,H5)
-
-def visualize1 (data):
-    return kdeplot(data.Price_dollars)
-
-def visualize2 (data):
-    data2=data[(data['Type']=='Paid')]
-    data3=data[(data['Type']=='Free')]
-    return (data2['Rating'].plot.hist(),data3['Rating'].plot.hist())
     
-def report_to():
-    msg = " The report has been generated. "
-    command = 'echo {} | mail -s "email subject" "gonzalezsalcedoa@gmail.com"'.format(msg)
-    subprocess.Popen(command, shell=True)
-    return('email enviado') 
+def visualize(data):
+    
     
 if __name__ == '__main__':
     acq = acquire()
     data = wrangle(acq)
     results=analyze1 (data)
-    graph1=visualize1 (data)
-    graph2_3=visualize2 (data)
-
-reporting=report_to()
-print(reporting)
-
-
+    print('hola')
 
